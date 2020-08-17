@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.login_system{
+    background-color: rgb(107, 235, 181);
+    width:400 px;
+    position:absolute;
+    padding: 40px;
+    top:35px;
+    left: 50px;
+    transform: translate(130%,15%);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+
+.login_system input[type="text"],.login_system input[type="password"]{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    text-align: center;
+    width:250;
+    background: none;
+    border:2px solid rgb(88, 5, 82);
+    border-radius: 15px;
+    transition:0.8s;
+    align-content: center;
+}
+.login_system input[type="text"]:focus,.login_system input[type="password"]:focus{
+    border-left:40px solid black;
+}
+
+.login_system button{
+    background: none;
+    border: 2px solid black;
+    padding:10px 10px;
+    width:100px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+.login_system button:hover{
+    background-color: black;
+    color:greenyellow;
+} 
